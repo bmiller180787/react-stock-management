@@ -1,0 +1,8 @@
+.footer {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    bottom: 1rem;
+    left: auto;
+    color: #d9d9d9;
+}
