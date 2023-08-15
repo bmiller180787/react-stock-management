@@ -1,8 +1,9 @@
 .footer {
     position: fixed;
+    width: 90%;
+    margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     bottom: 1rem;
-    left: auto;
     color: #d9d9d9;
 }
