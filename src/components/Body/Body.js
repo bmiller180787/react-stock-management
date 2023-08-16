@@ -1,10 +1,11 @@
+import Navbar from "../Navbar/Navbar";
+
 function Body() {
     return (
         <>
-            This is the body
+            <Navbar />
         </>
     )
-
 }
 
 export default Body

@@ -1,0 +1,11 @@
+.navbar {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    border-radius: 0.25rem;
+
+}
