@@ -1,10 +1,12 @@
 import "./Header.css"
+import {useEffect} from "react";
 
-function Header () {
+function Header ({pageID}) {
+
     return(
         <div className="header">
             <h1>
-                Stock Manager
+                {pageID}
             </h1>
         </div>
     )

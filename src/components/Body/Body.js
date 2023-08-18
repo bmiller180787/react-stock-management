@@ -1,9 +1,9 @@
 import Navbar from "./Navbar/Navbar";
 
-function Body() {
+function Body({setPageID}) {
     return (
         <>
-            <Navbar />
+            <Navbar setPageID={setPageID}/>
         </>
     )
 }

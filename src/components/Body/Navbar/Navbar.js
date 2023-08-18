@@ -1,9 +1,14 @@
 import "./Navbar.css"
 
-function Navbar () {
+function Navbar ({setPageID}) {
+
+    const handleCurrentStockButtonClick = () => {
+        setPageID = "Current Stock"
+    }
+
     return (
         <div className="navbar">
-            <button>Current Stock</button>
+            <button onClick={handleCurrentStockButtonClick}>Current Stock</button>
             <button>Current Orders</button>
             <button>New Orders</button>
         </div>
