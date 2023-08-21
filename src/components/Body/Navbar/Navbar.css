@@ -7,5 +7,9 @@
 
 button {
     border-radius: 0.25rem;
-
+    background-color: #005CE6;
+    color: #FFFFFF;
+    padding: 0.25rem;
+    font-size: 1rem;
+    font-weight: bold;
 }
