@@ -1,16 +1,18 @@
 import "./Navbar.css"
+import {Link} from "react-router-dom";
 
-function Navbar ({setPageID}) {
-
-    const handleCurrentStockButtonClick = () => {
-        setPageID = "Current Stock"
-    }
-
+function Navbar() {
     return (
         <div className="navbar">
-            <button onClick={handleCurrentStockButtonClick}>Current Stock</button>
-            <button>Current Orders</button>
-            <button>New Orders</button>
+            <Link to="/">
+                <button>Current Stock</button>
+            </Link>
+            <Link to="/orders">
+                <button>Current Orders</button>
+            </Link>
+            <Link to="/neworder">
+                <button>New Orders</button>
+            </Link>
         </div>
     )
 }
